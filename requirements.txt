@@ -1,0 +1,8 @@
+finance-datareader==0.9.94
+beautifulsoup4
+plotly
+openpyxl
+lxml
+tabulate
+streamlit_extras
+youtube_transcript_api
