@@ -23,8 +23,7 @@ df = pd.read_excel(
 ).dropna()
 st.dataframe(df)
 
-# 환경 변수에서 시크릿 값 가져오기
-secret_token = os.getenv("secret_token")
+secret_token = os.getenv("SECRET_TOKEN")
 
 # 앱에서 시크릿 사용하기
 st.write(f"Token: {secret_token}")
