@@ -28,4 +28,4 @@ secret_token = os.getenv("SECRET_TOKEN")
 
 # 앱에서 시크릿 사용하기
 st.write(f"Token: {secret_token}")
-st.write("1")
+st.write("2")
