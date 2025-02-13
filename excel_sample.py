@@ -22,10 +22,9 @@ df = pd.read_excel(
         engine= "openpyxl",
 ).dropna()
 st.dataframe(df)
+
 # 환경 변수에서 시크릿 값 가져오기
 secret_token = os.getenv("secret_token")
-# secret_password = os.getenv("SECRET_PASSWORD")
 
 # 앱에서 시크릿 사용하기
 st.write(f"Token: {secret_token}")
-# st.write(f"Password: {secret_password}")
